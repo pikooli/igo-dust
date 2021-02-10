@@ -1,0 +1,20 @@
+{> "./templates/_layout" /}
+<!-- Not finish !!!!!!!!! -->
+{<content}
+	{> "./templates/partials/_title" title="Reference"/}
+	{+prologue /}
+	<!-- {> "./templates/partials/_sessionTitle" title="Built-In Filters"/} -->
+	
+	<!-- {> "./templates/partials/_sessionTitle" title="Example explaining using filters"/} -->
+	{> "./templates/partials/_playground.dust" prefixToUse="Example1" /}
+	
+<script type="text/javascript" src="./js/dustSyntax.js"></script>
+
+{/content}
+
+
+{<prologue}
+<div>
+	<p>A reference is used to insert values from your context (or JSON data) into your template.</p>
+</div>
+{/prologue}

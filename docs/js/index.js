@@ -10,17 +10,17 @@ class Example {
 const examples = [
   new Example(
     "Contexts", 
-    "descrip",
+    "description",
     `Hello, {w}!`, 
     `{"w": "world"}`,),
   new Example(
     "If Else statement", 
-    "descrip",
+    "description",
     `Have banana ? {?banana } yeah {:else} no {/banana}`,
     `{banana : true}`,),
   new Example(
     "test", 
-    "descrip",
+    "description",
     `Hello {w}! 
     <br/><br/>
     My friends are {#friends}{@last} and {/last}{.}{@sep}, {/sep}{/friends}.
@@ -31,7 +31,7 @@ const examples = [
 
 window.onload = function () {
   examples.forEach((example, index ) => {
-    init(example.title, example.template, example.data, window.document, `Example${index + 1}`);
+    init(example.title, example.description, example.template, example.data, window.document, `Example${index + 1}`);
   })
   return;
 };

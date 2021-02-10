@@ -1,6 +1,7 @@
 {> "./templates/_layout" /}
 
 {<content}
+  <h1>Igo Dust</h1>
   <div>
     {> "./templates/partials/_playground.dust" prefixToUse="Example1" /}
     {> "./templates/partials/_playground.dust" prefixToUse="Example2" /}

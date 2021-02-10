@@ -1,0 +1,10 @@
+{> "./templates/_layout" /}
+
+{<content}
+{> "./templates/partials/_title" title="Filter API"/}
+<div>
+    {> "./templates/partials/_sessionTitle" title="Filter call"/}
+    <p>
+    </p>
+</div>
+{/content}

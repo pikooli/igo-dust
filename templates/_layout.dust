@@ -8,6 +8,7 @@
       <title>{+title}Igo Dust{/title}</title>
       <meta name="description" content="{+description}Page description placeholder{/description}"/>
       <meta name="keywords" content="{+keywords}Keywords,placeholder{/keywords}"/>
+      <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -41,16 +42,29 @@
     <div class="row">
       <div class="col-2 col-sm-4 col-md-3 col-lg-2 col-xl-2">
         <!-- menu starts -->
+        <h3>Guides</h3>
         <ul class="nav flex-column">
 
           <li class="nav-item">
             <a class="nav-link" href="getting_started.html">Getting Started</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="contexts.html">Contexts</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="helpers.html">Helpers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="filters.html">Using Filters</a>
+          </li>
+        </ul>
+        <h3>Documentation</h3>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="dustSyntax.html">Dust Syntax</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="filterApi.html">Filter API</a>
           </li>
         </ul>
       </div>
