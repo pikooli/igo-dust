@@ -1,15 +1,27 @@
 window.onload = function () {
 	const examples = [
-		new Example('Contexts', 'description', `Hello, {w}!`, `{"w": "world"}`),
+		new Example(
+			'',
+			`Dust does {#features}{name}{@sep}, {/sep}{/features}!`,
+			`{\n` +
+				`	features: [\n` +
+				`		{name: "async"},\n` +
+				`		{name: "helpers"},\n` +
+				`		{name: "filters"},\n` +
+				`		{name: "a little bit of logic"},\n` +
+				`		{name: "and more"}\n` +
+				`	]\n` +
+				`}`
+		),
+
+		new Example('Title', `Hello, {w}!`, `{"w": "world"}`),
 		new Example(
 			'If Else statement',
-			'description',
 			`Have banana ? {?banana } yeah {:else} no {/banana}`,
 			`{banana : true}`
 		),
 		new Example(
 			'test',
-			'description',
 			`Hello {w}!\n` +
 				`<br/><br/>\n` +
 				`My friends are {#friends}{@last} and {/last}{.}{@sep}, {/sep}{/friends}.\n` +
@@ -21,7 +33,6 @@ window.onload = function () {
 	examples.forEach((example, index) => {
 		init(
 			example.title,
-			example.description,
 			example.template,
 			example.data,
 			window.document,

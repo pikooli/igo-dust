@@ -1,4 +1,5 @@
 {> "./templates/_layout" /}
+<!-- Not finish !!!!!!!!! -->
 
 {<content}
 	<h1>Getting started</h1>

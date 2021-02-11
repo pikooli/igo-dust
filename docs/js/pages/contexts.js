@@ -3,7 +3,6 @@ window.onload = function () {
 		// need to look at this template, sections don't work like dustjs.
 		new Example(
 			'Sections',
-			'descrip',
 			`Parent: {firstName} {lastName}<br/>\n` +
 				`Children: {#children}{firstName} {lastName} {/children}`,
 			`{\n` +
@@ -20,7 +19,6 @@ window.onload = function () {
 	examples.forEach((example, index) => {
 		init(
 			example.title,
-			example.description,
 			example.template,
 			example.data,
 			window.document,

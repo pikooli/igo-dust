@@ -1,8 +1,9 @@
 {> "./templates/_layout" /}
+<!-- Not finish !!!!!!!!! -->
 
 {<content}
 	{> 
-		"./templates/partials/_sectionTitle" 
+		"./templates/partials/_title" 
 		title="What is Dust?" 
 	/}
 	{+section1 /}
@@ -16,6 +17,7 @@
     {> "./templates/partials/_playground.dust" prefixToUse="Example1" /}
     {> "./templates/partials/_playground.dust" prefixToUse="Example2" /}
     {> "./templates/partials/_playground.dust" prefixToUse="Example3" /}
+    {> "./templates/partials/_playground.dust" prefixToUse="Example4" /}
 
   </div>
 <script type="text/javascript" src="./js/pages/index.js"></script>

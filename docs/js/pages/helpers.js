@@ -2,7 +2,6 @@ window.onload = function () {
 	const examples = [
 		new Example(
 			'',
-			'',
 			`{@eq key=level value="master"}You are no longer a Padawan. {/eq}\n` +
 				`{@gt key=age value=starfighterRentalAge}Rent a Starfighter!{/gt}`,
 			`{\n` +
@@ -12,10 +11,10 @@ window.onload = function () {
 				`}`
 		),
 	];
+
 	examples.forEach((example, index) => {
 		init(
 			example.title,
-			example.description,
 			example.template,
 			example.data,
 			window.document,

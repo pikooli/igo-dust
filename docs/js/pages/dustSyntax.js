@@ -3,7 +3,6 @@ window.onload = function () {
 		// need to look at this template, it don't work.
 		new Example(
 			'Reference',
-			'descrip',
 			`{name} is a valid Dust reference.<br/>\n` +
 				`0name is not a valid Dust reference.<br/>\n` +
 				`{.name} is a valid Dust reference.<br/>\n` +
@@ -20,7 +19,6 @@ window.onload = function () {
 	examples.forEach((example, index) => {
 		init(
 			example.title,
-			example.description,
 			example.template,
 			example.data,
 			window.document,
