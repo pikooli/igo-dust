@@ -2,21 +2,23 @@
 <!-- Not finish !!!!!!!!! -->
 {<content}
 	{> "./templates/partials/_title" title="Contexts"/}
-	{+prologue /}
-	<!-- {> "./templates/partials/_sessionTitle" title="Built-In Filters"/} -->
-	
-	{> "./templates/partials/_sessionTitle" title="Example explaining using filters"/}
+	{+prologue /}	
+	{> "./templates/partials/_sectionTitle" title="Example explaining using filters"/}
 	{> "./templates/partials/_playground.dust" prefixToUse="Example1" /}
-	
-<script type="text/javascript" src="./js/contexts.js"></script>
+<script type="text/javascript" src="./js/pages/contexts.js"></script>
 
 {/content}
 
 
 {<prologue}
 <div>
-	<p>Dust refers to the data used to render a template as a context. The context is modelled as a stack of Javascript objects, arrays, and literals. Dust can search multiple layers of the stack, popping off the top objects and looking below.</p>
-	<p>In this example, Dust moves “up” the context stack.	</p>
+	<p>
+		Dust refers to the data used to render a template as a context. The context is modelled as a stack of Javascript objects, 
+		arrays, and literals. Dust can search multiple layers of the stack, popping off the top objects and looking below.
+	</p>
+	<p>
+		In this example, Dust moves “up” the context stack.	
+	</p>
 	<ul>
 		<li>The context is set to a single child inside the #children section.</li>	 
    	<li>Dust finds the child’s firstName at that context level.</li>	 
@@ -24,5 +26,3 @@
 	</ul>
 </div>
 {/prologue}
-
-{<}

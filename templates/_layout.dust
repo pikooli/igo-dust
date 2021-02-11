@@ -8,6 +8,8 @@
       <title>{+title}Igo Dust{/title}</title>
       <meta name="description" content="{+description}Page description placeholder{/description}"/>
       <meta name="keywords" content="{+keywords}Keywords,placeholder{/keywords}"/>
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
@@ -44,12 +46,14 @@
         <!-- menu starts -->
         <h3>Guides</h3>
         <ul class="nav flex-column">
-
           <li class="nav-item">
             <a class="nav-link" href="getting_started.html">Getting Started</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contexts.html">Contexts</a>
+          </li>
+					<li class="nav-item">
+            <a class="nav-link" href="contexts.html">Context Helpers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="helpers.html">Helpers</a>

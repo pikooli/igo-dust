@@ -3,12 +3,12 @@
 {<content}
 	{> "./templates/partials/_title" title="Reference"/}
 	{+prologue /}
-	<!-- {> "./templates/partials/_sessionTitle" title="Built-In Filters"/} -->
+	<!-- {> "./templates/partials/_sectionTitle" title="Built-In Filters"/} -->
 	
-	<!-- {> "./templates/partials/_sessionTitle" title="Example explaining using filters"/} -->
+	<!-- {> "./templates/partials/_sectionTitle" title="Example explaining using filters"/} -->
 	{> "./templates/partials/_playground.dust" prefixToUse="Example1" /}
 	
-<script type="text/javascript" src="./js/dustSyntax.js"></script>
+<script type="text/javascript" src="./js/pages/dustSyntax.js"></script>
 
 {/content}
 
